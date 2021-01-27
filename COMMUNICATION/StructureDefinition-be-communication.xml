@@ -323,7 +323,7 @@
 	<url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-communication"/>
 	<version value="0.1.0"/>
 	<name value="BeCommunication"/>
-	<title value="Communication profile"/>
+	<title value="BeCommunication"/>
 	<status value="draft"/>
 	<date value="2021-01-18T09:02:46+00:00"/>
 	<publisher value="eHealth Platform" />
