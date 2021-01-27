@@ -242,8 +242,8 @@
 	<url value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-homecare-team"/>
 	<version value="0.1.0"/>
 	<name value="BeHomeCareTeam"/>
-	<title value="Homecare Team"/>
-	<status value="active"/>
+	<title value="BeHomecare Team"/>
+	<status value="draft"/>
 	<date value="2021-01-18T09:02:46+00:00"/>
 	<publisher value="eHealth Platform"/>
   <contact>
