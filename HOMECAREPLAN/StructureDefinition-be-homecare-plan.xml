@@ -849,7 +849,7 @@
 	<version value="0.1.0"/>
 	<name value="BeHomeCarePlan"/>
 	<title value="BeHomecare Plan"/>
-	<status value="active"/>
+	<status value="draft"/>
 	<date value="2021-01-18T09:02:46+00:00"/>
 	<publisher value="eHealth Platform" />
     <contact>
