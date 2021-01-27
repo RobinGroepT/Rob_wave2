@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Communication xmlns="http://hl7.org/fhir">
+  <id value="be.comm3.1"/>
+  <meta>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-communication"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: d0000000-0000-0000-0000-000000000005</p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://hl7.org/fhir/ValueSet/communication-category notification}">notification</span></p><p><b>subject</b>: <a href="Patient-pia.html">Pia Peters. Generated Summary: Pia Peters (OFFICIAL); gender: female</a></p><p><b>sent</b>: Nov 11, 2019, 7:30:01 AM</p><p><b>recipient</b>: <a href="CareTeam-dzop-team-0002.v2.html">Pia Peter homecare team. Generated Summary: id: DZOP-Pia-2020001; status: active; <span title="Codes: {http://loinc.org LA28866-4}">Home &amp; Community Based Services (HCBS)-focused care team</span>; name: Pia's 2020 Care team for post-op care; period: 2019-11-02 --&gt; 2020-11-01</a></p><p><b>sender</b>: <a href="Practitioner-dragon.html">Dr. Dragon. Generated Summary: Dragon </a></p><h3>Payloads</h3><table class="grid"><tr><td>-</td><td><b>Content[x]</b></td></tr><tr><td>*</td><td>For this test, if the patient comes at 4 today it is still ok. Can the patient be here at 16h00?</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://www.dzop.be/archive/communication"/>
+    <value value="d0000000-0000-0000-0000-000000000005"/>
+  </identifier>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/ValueSet/communication-category"/>
+      <code value="notification"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/pia"/>
+    <display value="Pia Peters"/>
+  </subject>
+  <sent value="2019-11-11T08:30:01+01:00"/>
+  <recipient>
+    <reference value="CareTeam/dzop-team-0002.v2"/>
+    <display value="Pia Peter homecare team"/>
+  </recipient>
+  <sender>
+    <reference value="Practitioner/dragon"/>
+    <display value="Dr. Dragon"/>
+  </sender>
+  <payload>
+    <contentString value="For this test, if the patient comes at 4 today it is still ok. Can the patient be here at 16h00?"/>
+  </payload>
+</Communication>

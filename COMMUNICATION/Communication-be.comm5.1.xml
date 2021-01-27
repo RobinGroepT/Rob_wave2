@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Communication xmlns="http://hl7.org/fhir">
+  <id value="be.comm5.1"/>
+  <meta>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-communication"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: d0000000-0000-0000-0000-000000000009</p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://hl7.org/fhir/ValueSet/communication-category notification}">notification</span></p><p><b>subject</b>: <a href="Patient-pia.html">Pia Peters. Generated Summary: Pia Peters (OFFICIAL); gender: female</a></p><p><b>topic</b>: <span title="Codes: {https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-diarytopic woundcare}">woundcare</span></p><p><b>sent</b>: Nov 11, 2019, 8:15:01 AM</p><p><b>recipient</b>: <a href="Practitioner-david.html">Dr. David. Generated Summary: David </a></p><p><b>sender</b>: <a href="Practitioner-nathalie.html">Nathalie. Generated Summary: Nathalie </a></p><h3>Payloads</h3><table class="grid"><tr><td>-</td><td><b>Content[x]</b></td></tr><tr><td>*</td><td>Wound is recovering today</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://www.dzop.be/archive/communication"/>
+    <value value="d0000000-0000-0000-0000-000000000009"/>
+  </identifier>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/ValueSet/communication-category"/>
+      <code value="notification"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/pia"/>
+    <display value="Pia Peters"/>
+  </subject>
+  <topic>
+    <coding>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-diarytopic"/>
+      <code value="woundcare"/>
+    </coding>
+  </topic>
+  <sent value="2019-11-11T09:15:01+01:00"/>
+  <recipient>
+    <reference value="Practitioner/david"/>
+    <display value="Dr. David"/>
+  </recipient>
+  <sender>
+    <reference value="Practitioner/nathalie"/>
+    <display value="Nathalie"/>
+  </sender>
+  <payload>
+    <contentString value="Wound is recovering today"/>
+  </payload>
+</Communication>
