@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CareTeam xmlns="http://hl7.org/fhir">
+  <id value="dzop-team-0002.v1"/>
+  <meta>
+    <versionId value="1"/>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-homecare-team"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: DZOP-Pia-2020001</p><p><b>status</b>: active</p><p><b>category</b>: <span title="Codes: {http://loinc.org LA28866-4}">Home &amp; Community Based Services (HCBS)-focused care team</span></p><p><b>name</b>: Pia's 2020 Care team for post-op care</p><p><b>subject</b>: <a href="Patient-pia.html">Pia. Generated Summary: Pia Peters (OFFICIAL); gender: female</a></p><p><b>period</b>: 2019-11-02 --&gt; 2020-11-01</p><blockquote><p><b>participant</b></p><p><b>role</b>: <span title="Codes: ">care-coordinator</span></p><p><b>member</b>: <a href="Practitioner-dragon.html">Dr Dragon. Generated Summary: Dragon </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>role</b>: <span title="Codes: ">welfare-actor</span></p><p><b>member</b>: <a href="Practitioner-christa.html">Caregiver Christa. Generated Summary: Christa </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>role</b>: <span title="Codes: ">healthcare-actor</span></p><p><b>member</b>: <a href="Practitioner-nathalie.html">Nurse Nathalie. Generated Summary: Nathalie </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>role</b>: <span title="Codes: ">informal care actor</span></p><p><b>member</b>: <a href="RelatedPerson-dina.html">Dina (daughter). Generated Summary: Dina </a></p><p><b>period</b>: ?? --&gt; 2013-01-01</p></blockquote><blockquote><p><b>participant</b></p><p><b>role</b>: <span title="Codes: ">welfare-actor</span></p><p><b>member</b>: <a href="Organization-diensten-gent.html">Lokaal dienstencentrum Gent. Generated Summary: name: Diensten - Gent; alias: Diensten - Stad Gent</a></p></blockquote><p><b>managingOrganization</b>: <a href="Organization-dzop.html">Generated Summary: name: DZOP</a></p></div>
+  </text>
+  <identifier>
+    <value value="DZOP-Pia-2020001"/>
+  </identifier>
+  <status value="active"/>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA28866-4"/>
+      <display value="Home &amp; Community Based Services (HCBS)-focused care team"/>
+    </coding>
+  </category>
+  <name value="Pia&#39;s 2020 Care team for post-op care"/>
+  <subject>
+    <reference value="Patient/pia"/>
+    <display value="Pia"/>
+  </subject>
+  <period>
+    <start value="2019-11-02"/>
+    <end value="2020-11-01"/>
+  </period>
+  <participant>
+    <role>
+      <text value="care-coordinator"/>
+    </role>
+    <member>
+      <reference value="Practitioner/dragon"/>
+      <display value="Dr Dragon"/>
+    </member>
+  </participant>
+  <participant>
+    <role>
+      <text value="welfare-actor"/>
+    </role>
+    <member>
+      <reference value="Practitioner/christa"/>
+      <display value="Caregiver Christa"/>
+    </member>
+  </participant>
+  <participant>
+    <role>
+      <text value="healthcare-actor"/>
+    </role>
+    <member>
+      <reference value="Practitioner/nathalie"/>
+      <display value="Nurse Nathalie"/>
+    </member>
+  </participant>
+  <participant>
+    <role>
+      <text value="informal care actor"/>
+    </role>
+    <member>
+      <reference value="RelatedPerson/dina"/>
+      <display value="Dina (daughter)"/>
+    </member>
+    <period>
+      <end value="2013-01-01"/>
+    </period>
+  </participant>
+  <participant>
+    <role>
+      <text value="welfare-actor"/>
+    </role>
+    <member>
+      <reference value="Organization/diensten-gent"/>
+      <display value="Lokaal dienstencentrum Gent"/>
+    </member>
+  </participant>
+  <managingOrganization>
+    <reference value="Organization/dzop"/>
+  </managingOrganization>
+</CareTeam>
