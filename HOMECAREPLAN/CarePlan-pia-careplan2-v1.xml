@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="pia-careplan2-v1"/>
+  <meta>
+    <versionId value="1"/>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-homecare-plan"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>replaces</b>: <a href="CarePlan-pia-careplan1-v1.html">Generated Summary: status: active; intent: proposal; <span title="Codes: {http://loinc.org LA28866-4}">Home &amp; Community Based Services (HCBS)-focused care team</span>; period: 2019-11-02 --&gt; (ongoing); created: Nov 2, 2019, 9:15:15 AM</a></p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>category</b>: <span title="Codes: ">homecare</span></p><p><b>subject</b>: <a href="&quot;Patient/pia&quot;">"Patient/pia"</a></p><p><b>period</b>: 2019-11-02 --&gt; (ongoing)</p><p><b>created</b>: Nov 2, 2019, 9:15:15 AM</p><p><b>author</b>: <a href="&quot;Practitioner/dragon&quot;">"Practitioner/dragon"</a></p><p><b>contributor</b>: <a href="&quot;Practitioner/dragon&quot;">"Practitioner/dragon"</a></p><p><b>careTeam</b>: <a href="&quot;CareTeam/dzop-team-0002.v2&quot;">"CareTeam/dzop-team-0002.v2"</a></p><p><b>addresses</b>: <a href="&quot;Condition/pia-isolation&quot;">"Condition/pia-isolation"</a></p><p><b>supportingInfo</b>: <span></span></p><p><b>goal</b>: </p><ul><li><span>Diabetes management for Patient Pia</span></li><li><span>Depression recovery</span></li><li><span>Restore family connections</span></li></ul><blockquote><p><b>activity</b></p><p><b>progress</b>: Planned</p><h3>Details</h3><table class="grid"><tr><td>-</td><td><b>Kind</b></td><td><b>Code</b></td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Location</b></td></tr><tr><td>*</td><td>Appointment</td><td><span title="Codes: ">nursingcode1</span></td><td>scheduled</td><td>Do Once per 1 days</td><td><span>Patient's home</span></td></tr></table></blockquote><blockquote><p><b>activity</b></p><p><b>progress</b>: Planned</p><h3>Details</h3><table class="grid"><tr><td>-</td><td><b>Kind</b></td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Location</b></td></tr><tr><td>*</td><td>MedicationRequest</td><td>scheduled</td><td>Do Once per 1 days</td><td><span>Patient's home</span></td></tr></table></blockquote><blockquote><p><b>activity</b></p><p><b>progress</b>: Planned</p><h3>Details</h3><table class="grid"><tr><td>-</td><td><b>Kind</b></td><td><b>Status</b></td><td><b>Scheduled[x]</b></td><td><b>Location</b></td></tr><tr><td>*</td><td>ServiceRequest</td><td>scheduled</td><td>Do 3 per 1 weeks</td><td><span>Patient's home</span></td></tr></table></blockquote></div>
+  </text>
+  <replaces>
+    <reference value="CarePlan/pia-careplan1-v1"/>
+  </replaces>
+  <status value="active"/>
+  <intent value="plan"/>
+  <category>
+    <coding>
+      <code value="homecare"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="&quot;Patient/pia&quot;"/>
+  </subject>
+  <period>
+    <start value="2019-11-02"/>
+  </period>
+  <created value="2019-11-02T09:15:15Z"/>
+  <author>
+    <reference value="&quot;Practitioner/dragon&quot;"/>
+  </author>
+  <contributor>
+    <reference value="&quot;Practitioner/dragon&quot;"/>
+  </contributor>
+  <careTeam>
+    <reference value="&quot;CareTeam/dzop-team-0002.v2&quot;"/>
+  </careTeam>
+  <addresses>
+    <reference value="&quot;Condition/pia-isolation&quot;"/>
+  </addresses>
+  <supportingInfo>
+    <identifier>
+      <system value="http://belrai.be"/>
+      <value value="74196-7"/>
+    </identifier>
+  </supportingInfo>
+  <goal>
+    <display value="Diabetes management for Patient Pia"/>
+  </goal>
+  <goal>
+    <display value="Depression recovery"/>
+  </goal>
+  <goal>
+    <display value="Restore family connections"/>
+  </goal>
+  <activity>
+    <progress>
+      <text value="Planned"/>
+    </progress>
+    <detail>
+      <kind value="Appointment"/>
+      <code>
+        <coding>
+          <code value="nursingcode1"/>
+        </coding>
+      </code>
+      <status value="scheduled"/>
+      <scheduledTiming>
+        <repeat>
+          <boundsDuration>
+            <value value="10"/>
+            <unit value="d"/>
+          </boundsDuration>
+          <frequency value="1"/>
+          <period value="1"/>
+          <periodUnit value="d"/>
+        </repeat>
+      </scheduledTiming>
+      <location>
+        <display value="Patient&#39;s home"/>
+      </location>
+    </detail>
+  </activity>
+  <activity>
+    <progress>
+      <text value="Planned"/>
+    </progress>
+    <detail>
+      <kind value="MedicationRequest"/>
+      <status value="scheduled"/>
+      <scheduledTiming>
+        <repeat>
+          <boundsRange>
+            <low>
+              <value value="3"/>
+              <unit value="mo"/>
+            </low>
+          </boundsRange>
+          <frequency value="1"/>
+          <period value="1"/>
+          <periodUnit value="d"/>
+        </repeat>
+      </scheduledTiming>
+      <location>
+        <display value="Patient&#39;s home"/>
+      </location>
+    </detail>
+  </activity>
+  <activity>
+    <progress>
+      <text value="Planned"/>
+    </progress>
+    <detail>
+      <kind value="ServiceRequest"/>
+      <status value="scheduled"/>
+      <scheduledTiming>
+        <repeat>
+          <frequency value="3"/>
+          <period value="1"/>
+          <periodUnit value="wk"/>
+        </repeat>
+      </scheduledTiming>
+      <location>
+        <display value="Patient&#39;s home"/>
+      </location>
+    </detail>
+  </activity>
+</CarePlan>

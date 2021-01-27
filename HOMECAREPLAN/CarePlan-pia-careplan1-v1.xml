@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="pia-careplan1-v1"/>
+  <meta>
+    <versionId value="1"/>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-homecare-plan"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>intent</b>: proposal</p><p><b>category</b>: <span title="Codes: {http://loinc.org LA28866-4}">Home &amp; Community Based Services (HCBS)-focused care team</span></p><p><b>subject</b>: <a href="&quot;Patient/pia&quot;">"Patient/pia"</a></p><p><b>period</b>: 2019-11-02 --&gt; (ongoing)</p><p><b>created</b>: Nov 2, 2019, 9:15:15 AM</p><p><b>author</b>: <a href="&quot;Practitioner/dragon&quot;">"Practitioner/dragon"</a></p><p><b>contributor</b>: <a href="&quot;Practitioner/dragon&quot;">"Practitioner/dragon"</a></p><p><b>careTeam</b>: <a href="&quot;CareTeam/dzop-team-0002.v2&quot;">"CareTeam/dzop-team-0002.v2"</a></p><p><b>addresses</b>: <a href="&quot;Condition/pia-diabetes&quot;">"Condition/pia-diabetes"</a></p><p><b>supportingInfo</b>: <span></span></p><p><b>goal</b>: </p><ul><li><span>Diabetes management for Patient Pia</span></li><li><span>Depression recovery</span></li><li><span>Restore family connections</span></li></ul><h3>Activities</h3><table class="grid"><tr><td>-</td><td><b>Progress</b></td><td><b>Reference</b></td></tr><tr><td>*</td><td>Planned</td><td><a href="Appointment-pia-001-v0.html">Appointment with nurse. Generated Summary: status: proposed; <span title="Codes: ">7</span>; <span title="Codes: ">59</span>; description: 1st appointment to plan diabetes care.; requestedPeriod: 2019-11-12 --&gt; 2019-11-15</a></td></tr></table></div>
+  </text>
+  <status value="active"/>
+  <intent value="proposal"/>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA28866-4"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="&quot;Patient/pia&quot;"/>
+  </subject>
+  <period>
+    <start value="2019-11-02"/>
+  </period>
+  <created value="2019-11-02T09:15:15Z"/>
+  <author>
+    <reference value="&quot;Practitioner/dragon&quot;"/>
+  </author>
+  <contributor>
+    <reference value="&quot;Practitioner/dragon&quot;"/>
+  </contributor>
+  <careTeam>
+    <reference value="&quot;CareTeam/dzop-team-0002.v2&quot;"/>
+  </careTeam>
+  <addresses>
+    <reference value="&quot;Condition/pia-diabetes&quot;"/>
+  </addresses>
+  <supportingInfo>
+    <identifier>
+      <system value="http://belrai.be"/>
+      <value value="74196-7"/>
+    </identifier>
+  </supportingInfo>
+  <goal>
+    <display value="Diabetes management for Patient Pia"/>
+  </goal>
+  <goal>
+    <display value="Depression recovery"/>
+  </goal>
+  <goal>
+    <display value="Restore family connections"/>
+  </goal>
+  <activity>
+    <progress>
+      <text value="Planned"/>
+    </progress>
+    <reference>
+      <reference value="Appointment/pia-001-v0"/>
+      <display value="Appointment with nurse"/>
+    </reference>
+  </activity>
+</CarePlan>
