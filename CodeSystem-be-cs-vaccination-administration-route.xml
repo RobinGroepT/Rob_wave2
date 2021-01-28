@@ -87,7 +87,7 @@
     </designation>
   </concept>
   <concept>
-    <code value="Oral"/>
+    <code value="oral"/>
     <display value="Oral"/>
     <designation>
       <language value="fr-BE"/>
@@ -99,7 +99,7 @@
     </designation>
   </concept>
   <concept>
-    <code value="Nasal"/>
+    <code value="nasal"/>
     <display value="Nasal"/>
     <designation>
       <language value="fr-BE"/>
