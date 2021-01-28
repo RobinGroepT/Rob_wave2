@@ -26,7 +26,7 @@
       <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
 		</contact>
-  <description value="Body Site CodeSystem"/>
+  <description value="Patient Will Category CodeSystem"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
