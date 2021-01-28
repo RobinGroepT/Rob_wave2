@@ -33,7 +33,7 @@
       <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
 		</contact>
-	<description value="Score Value Set"/>
+	<description value="Patient will category Value Set"/>
 	<jurisdiction>
 		<coding>
 			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
