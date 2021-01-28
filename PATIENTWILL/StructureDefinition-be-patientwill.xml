@@ -871,7 +871,7 @@
 			<path value="Consent.identifier"/>
 			<short value="Identifier for this record (external references)"/>
 			<definition value="Unique identifier for this copy of the Consent Statement."/>
-			<comment value="SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value=""/>
 			<min value="0"/>
 			<max value="*"/>
 			<base>
@@ -1005,7 +1005,7 @@
 			<path value="Consent.category"/>
 			<short value="The category or the patient will directive"/>
 			<definition value="The types or classification of patient will. This element supports indexing and retrieval of consent statements.&amp;#xD;&amp;#xA;The actual detail of the patient will (e.g. no hospitalization, bloodtransfusion refusal) (Valueset delivered by a working group of NIHDI)"/>
-			<comment value="Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.&amp;#xD;&amp;#xA;SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value="Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.&amp;#xD;&amp;#xA;"/>
 			<min value="1"/>
 			<max value="*"/>
 			<base>
@@ -1096,7 +1096,7 @@
 			<path value="Consent.dateTime"/>
 			<short value="The dateTime when the patient will has been recorded"/>
 			<definition value="The date and/or time when the patient will has been recorded"/>
-			<comment value="This is not the time the patient expressed their will, but the time that this patient was recorded.&amp;#xD;&amp;#xA;SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value="This is not the time the patient expressed their will, but the time that this patient was recorded.&amp;#xD;&amp;#xA;"/>
 			<min value="1"/>
 			<max value="1"/>
 			<base>
@@ -1139,7 +1139,7 @@
 			<path value="Consent.performer"/>
 			<short value="Who is agreeing to the policy and rules"/>
 			<definition value="Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations and enforcement of prohibitions."/>
-			<comment value="Commonly, the patient will is expressed by the patient, but for some cases it may be some other person.&amp;#xD;&amp;#xA;SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value="Commonly, the patient will is expressed by the patient, but for some cases it may be some other person.&amp;#xD;&amp;#xA;"/>
 			<alias value="consentor"/>
 			<min value="1"/>
 			<max value="*"/>
@@ -2669,7 +2669,7 @@
 		</element>
 		<element id="Consent.identifier">
 			<path value="Consent.identifier"/>
-			<comment value="SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value=""/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Consent.status">
@@ -2684,7 +2684,7 @@
 			<path value="Consent.category"/>
 			<short value="The category or the patient will directive"/>
 			<definition value="The types or classification of patient will. This element supports indexing and retrieval of consent statements.&amp;#xD;&amp;#xA;The actual detail of the patient will (e.g. no hospitalization, bloodtransfusion refusal) (Valueset will be delivered by a working group of NIHDI)"/>
-			<comment value="Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.&amp;#xD;&amp;#xA;SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value="Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.&amp;#xD;&amp;#xA;"/>
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
@@ -2706,13 +2706,13 @@
 			<path value="Consent.dateTime"/>
 			<short value="The dateTime when the patient will has been recorded"/>
 			<definition value="The date and/or time when the patient will has been recorded"/>
-			<comment value="This is not the time the patient expressed their will, but the time that this patient was recorded.&amp;#xD;&amp;#xA;SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value="This is not the time the patient expressed their will, but the time that this patient was recorded.&amp;#xD;&amp;#xA;"/>
 			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Consent.performer">
 			<path value="Consent.performer"/>
-			<comment value="Commonly, the patient will is expressed by the patient, but for some cases it may be some other person.&amp;#xD;&amp;#xA;SHALL be given and a consumer SHALL NOT ignore this."/>
+			<comment value="Commonly, the patient will is expressed by the patient, but for some cases it may be some other person.&amp;#xD;&amp;#xA;"/>
 			<min value="1"/>
 			<type>
 				<code value="Reference"/>
