@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="be-cs-score"/>
+ 
+  <url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-score"/>
+  <version value="0.1.0"/>
+  <name value="BeCSScore"/>
+  <title value="Score Code System"/>
+  <status value="draft"/>
+  <date value="2020-10-01T11:01:09+00:00"/>
+ <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <description value="Score Code System"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="056"/>
+    </coding>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="ADBB"/>
+    <display value="Alarm distress baby scale"/>
+    <definition value="Alarm distress baby scale"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Alarm d&#xE9;tresse b&#xE9;b&#xE9;"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="BRANDEN"/>
+    <display value="Branden"/>
+    <definition value="Branden"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Branden"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="DOLOPLUS2"/>
+    <display value="Doloplus 2 score"/>
+    <definition value="Pain assessment for people with verbal communication impairment"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Evaluation de la douleur chez les personnes pr&#xE9;sentant des troubles de la communication verbale"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="EAT-10"/>
+    <display value="Eating Assessment Tool"/>
+    <definition value="Dysphagia Assessment scale"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="&#xE9;chelle d&#39;&#xE9;valuation du degr&#xE9; de dysphagie"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="EDIN"/>
+    <display value="Neonatal pain and discomfort scale"/>
+    <definition value="Neonatal pain and discomfort scale"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="&#xE9;chelle de la douleur et de l&#39;inconfort du nouveau-n&#xE9;"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="HEDEN"/>
+    <display value="HEDEN Pain Scale"/>
+    <definition value="HEDEN (H&#xE9;t&#xE9;ro-Evaluation de la Douleur chez l&#39;Enfant) Pain Scale"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="h&#xE9;t&#xE9;ro-&#xE9;valuation de la douleur chez l&#39;enfant"/>
+    </designation>
+  
+  </concept>
+  <concept>
+    <code value="MNA-complete"/>
+    <display value="Mini Nutritional Assessment - complete"/>
+    <definition value="Mini Nutritional Assessment - complete"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Mini Nutritional Assessment : &#xE9;chelle d&#39;&#xE9;valuation de la d&#xE9;nutrition des personnes &#xE2;g&#xE9;es."/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="MNA-simplified"/>
+    <display value="Mini Nutritional Assessment - simplified"/>
+    <definition value="Mini Nutritional Assessment - simplified"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Mini Nutritional Assessment : &#xE9;chelle d&#39;&#xE9;valuation de la d&#xE9;nutrition des personnes &#xE2;g&#xE9;es."/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="PAL"/>
+    <display value="Level of Physical Activity"/>
+    <definition value="Level of Physical Activity (NAP - Niveau d&#39;Activit&#xE9; Physique)"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Niveau d&#39;Activit&#xE9; Physique"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="NRS2002"/>
+    <display value="Nutritional Risk Screening"/>
+    <definition value="Nutritional Risk Screening"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Nutritional Risk Screening"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="SCORE"/>
+    <display value="Systemic Coronary Risk Estimation"/>
+    <definition value="Systemic Coronary Risk Estimation"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Syst&#xE9;mic Coronary Risk Estimation"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="SNAQ"/>
+    <display value="Short Nutritional Assessment Questionnaire"/>
+    <definition value="Short Nutritional Assessment Questionnaire"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Short Nutritional Assessment Questionnaire"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="TIMED-CHAIR-STAND"/>
+    <display value="Timed Chair Stand"/>
+    <definition value="Timed Chair Stand"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="&#xE9;valuation des risques de chutes et la force musculaire des membres inf&#xE9;rieurs"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="TUG"/>
+    <display value="Timed Up&amp;Go"/>
+    <definition value="Timed Up&amp;Go"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Timed Up&amp;Go&#xA0;: &#xE9;value le risque de chute chez une personne"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="WECKX"/>
+    <display value="SCORE INZAKE ZORGBEHOEVENDHEID"/>
+    <definition value="WECKX SCORE"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="WECKX mesure de degr&#xE9; de d&#xE9;pendance physique"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="SDAI"/>
+    <display value="SDAI ou Simplified Disease Activity Index"/>
+    <definition value="SDAI ou Simplified Disease Activity Index"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="SDAI ou Simplified Disease Activity Index"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="GARS"/>
+    <display value="Groningen Activity Restriction Scale"/>
+    <definition value="Groningen Activity Restriction Scale"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Groningen Activity Restriction Scale"/>
+    </designation>
+ 
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Autre"/>
+    </designation>
+  
+  </concept>
+</CodeSystem>
