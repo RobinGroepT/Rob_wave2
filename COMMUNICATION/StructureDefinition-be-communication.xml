@@ -437,7 +437,6 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
         <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient" />
         <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner" />
         <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole" />

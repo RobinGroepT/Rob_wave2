@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="be-cs-patientwill-code"/>
+	
+		
+	<url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-patientwill-code"/>
+	<version value="0.1.0"/>
+	<name value="BeCSPAtientWillCode"/>
+	<title value="Patient Will Directive CodeSystem"/>
+	<status value="draft"/>
+	<date value="2021-01-10T10:59:49+00:00"/>
+	  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@ehealth.fgov.be"/>
+    </telecom>
+	</contact>
+	<description value="Patient Will Directive CodeSystem. Codes as defined by the NIHDI."/>
+	<jurisdiction>
+		<coding>
+			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+			<code value="056"/>
+		</coding>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="BE"/>
+		</coding>
+	</jurisdiction>
+	<content value="complete"/>
+	<concept>
+		<code value="euthanasia-request"/>
+		<display value="Euthanasia Request"/>
+		<definition value="Euthanasia request"/>
+	
+	</concept>
+	<concept>
+		<code value="intubation-refusal"/>
+		<display value="Intubation Refusal"/>
+		<definition value="Intubation refusal"/>
+	
+	</concept>
+	<concept>
+		<code value="organ-donation-consent"/>
+		<display value="Organ Donation Consent"/>
+		<definition value="Organ donation consent"/>
+	
+	</concept>
+	<concept>
+		<code value="vaccination-refusal"/>
+		<display value="Vaccination Refusal"/>
+		<definition value="Vaccination refusal"/>
+	
+	</concept>
+	<concept>
+		<code value="omission-medical-data"/>
+		<display value="Omission Of Medical Data"/>
+		<definition value="Omission of medical data (cfr annexes)"/>
+	
+	</concept>
+	<concept>
+		<code value="blood-transfusion-tefusal"/>
+		<display value="Blood Transfusion Refusal"/>
+		<definition value="Refusal of blood transfusion"/>
+		
+	</concept>
+	<concept>
+		<code value="clinical-participation-consent"/>
+		<display value="clinical Participation Consent"/>
+		<definition value="Consent to participate in clinical trials"/>
+
+	</concept>
+	<concept>
+		<code value="datareuse-clinicalresearch"/>
+		<display value="Data reuse for clinical research consent"/>
+		<definition value="Consent for data reuse for clinical research"/>
+	
+	</concept>
+	<concept>
+		<code value="datareuse-clinicaltrials"/>
+		<display value="Data reuse for clinical trials consent"/>
+		<definition value="Consent for data reuse for clinical trials"/>
+	
+	</concept>
+	<concept>
+		<code value="no-therapeutic-limitations"/>
+		<display value="No therapeutic limitations"/>
+		<definition value="No therapeutic limitations (Known as 'dnr0' in KMEHR)"/>
+	
+	</concept>
+	<concept>
+		<code value="do-not-resuscitate"/>
+		<display value="Do not resuscitate"/>
+		<definition value="Do not resuscitate (Known as 'dnr1' in KMEHR)"/>
+	
+	</concept>
+	<concept>
+		<code value="do-not-resuscitate-or-extend-therapy"/>
+		<display value="Do not resuscitate or extend therapy"/>
+		<definition value="Do not resuscitate or extend therapy (Known as 'dnr2' in KMEHR)"/>
+		
+	</concept>
+	<concept>
+		<code value="do-not-resuscitate-and-progressively-reduce-the-therapy"/>
+		<display value="Do not resuscitate and progressively reduce the therapy"/>
+		<definition value="Do not resuscitate and progressively reduce the therapy (Known as 'dnr3' in KMEHR)"/>
+	
+	</concept>
+	<concept>
+		<code value="no-hospitalization"/>
+		<display value="No hospitalization"/>
+		<definition value="No hospitalization (Known as 'hos1' in KMEHR')"/>
+		
+	</concept>
+	<concept>
+		<code value="hospitalization-only-in-specific-situations"/>
+		<display value="Hospitalization only in specific situations (cfr annexes)"/>
+		<definition value="Hospitalization only in specific situations (cfr annexes)(Known as 'hos2' in KMEHR)"/>
+		
+	</concept>
+</CodeSystem>
