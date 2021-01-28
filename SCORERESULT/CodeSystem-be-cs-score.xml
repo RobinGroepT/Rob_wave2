@@ -25,7 +25,7 @@
     </telecom>
   </contact>
    <description value="Codes as defined by the NIHDI. Dutch translations were not received." />
-  <description value="Score Code System"/>
+ 
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
