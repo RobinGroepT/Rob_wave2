@@ -458,7 +458,7 @@
       <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
 		</contact>
-	<description value="****!DRAFT!DRAFT!DRAFT! VALUESETS STILL TO BE DELIVERED FOR THIS PROFILE BY THE NIHDI **** Belgian federal profile for a patient will ONLY in the context of the patient will in the context of limitations to treatment, DNR etc. Initially based on the functional description of the NIHDI. This profile will in the future be also used to record agreement to participate in clinical trials etc. Any usecase around informed consent is out of scope for this profile."/>
+	<description value="Belgian federal profile for a patient will ONLY in the context of the patient will in the context of limitations to treatment, DNR etc. Initially based on the functional description of the NIHDI. This profile will in the future be also used to record agreement to participate in clinical trials etc. Any usecase around informed consent is out of scope for this profile."/>
 	<jurisdiction>
 		<coding>
 			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
