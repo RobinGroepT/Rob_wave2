@@ -730,218 +730,212 @@
   <type value="Immunization" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Immunization" />
   <derivation value="constraint" />
-  <differential>
+ <differential>
+    <element id="Immunization">
+      <path value="Immunization"/>
+    </element>
     <element id="Immunization.extension">
-      <path value="Immunization.extension" />
+      <path value="Immunization.extension"/>
       <slicing>
         <discriminator>
-          <type value="value" />
-          <path value="url" />
+          <type value="value"/>
+          <path value="url"/>
         </discriminator>
-        <rules value="open" />
+        <ordered value="false"/>
+        <rules value="open"/>
       </slicing>
     </element>
     <element id="Immunization.extension:vaccination-originalorder">
-      <path value="Immunization.extension" />
-      <sliceName value="vaccination-originalorder" />
-      <max value="1" />
+      <path value="Immunization.extension"/>
+      <sliceName value="vaccination-originalorder"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="Extension" />
-        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-vaccination-originalorder" />
+        <code value="Extension"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-vaccination-originalorder"/>
       </type>
     </element>
     <element id="Immunization.extension:administeredProduct">
-      <path value="Immunization.extension" />
-      <sliceName value="administeredProduct" />
-      <max value="1" />
+      <path value="Immunization.extension"/>
+      <sliceName value="administeredProduct"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="Extension" />
-        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-administeredProduct" />
+        <code value="Extension"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-administeredProduct"/>
       </type>
     </element>
     <element id="Immunization.extension:vaccination-location">
-      <path value="Immunization.extension" />
-      <sliceName value="vaccination-location" />
-      <max value="1" />
+      <path value="Immunization.extension"/>
+      <sliceName value="vaccination-location"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="Extension" />
-        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-vaccination-location" />
+        <code value="Extension"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-vaccination-location"/>
       </type>
     </element>
     <element id="Immunization.extension:vaccination-confirmationStatus">
-      <path value="Immunization.extension" />
-      <sliceName value="vaccination-confirmationStatus" />
-      <max value="1" />
+      <path value="Immunization.extension"/>
+      <sliceName value="vaccination-confirmationStatus"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="Extension" />
-        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-vaccination-confirmationStatus" />
+        <code value="Extension"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-vaccination-confirmationStatus"/>
       </type>
     </element>
     <element id="Immunization.extension:recorder">
-      <path value="Immunization.extension" />
-      <sliceName value="recorder" />
-      <max value="1" />
+      <path value="Immunization.extension"/>
+      <sliceName value="recorder"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="Extension" />
-        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-recorder" />
+        <code value="Extension"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-recorder"/>
       </type>
     </element>
     <element id="Immunization.identifier">
-      <path value="Immunization.identifier" />
-      <short value="A unique business identifier for a vaccination entry" />
-      <mustSupport value="true" />
+      <path value="Immunization.identifier"/>
+      <short value="A unique business identifier for a vaccination entry"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.identifier.system">
-      <path value="Immunization.identifier.system" />
-      <min value="1" />
-      <mustSupport value="true" />
+      <path value="Immunization.identifier.system"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.identifier.value">
-      <path value="Immunization.identifier.value" />
-      <min value="1" />
-      <mustSupport value="true" />
+      <path value="Immunization.identifier.value"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.status">
-      <path value="Immunization.status" />
-      <short value="The status of this vaccination record entry" />
-      <mustSupport value="true" />
+      <path value="Immunization.status"/>
+      <short value="The status of this vaccination record entry"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.statusReason">
-      <path value="Immunization.statusReason" />
-      <mustSupport value="true" />
+      <path value="Immunization.statusReason"/>
+      <mustSupport value="true"/>
       <binding>
-        <strength value="required" />
-        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-vs-vaccination-status-reason" />
+        <strength value="required"/>
+        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-vs-vaccination-status-reason"/>
       </binding>
     </element>
     <element id="Immunization.vaccineCode">
-      <path value="Immunization.vaccineCode" />
-      <short value="The vaccine code - a type of vaccine, typically identified by the diseas(s) it covers. For example MMR, HPV, Tetanus, DTPa" />
-      <mustSupport value="true" />
+      <path value="Immunization.vaccineCode"/>
+      <short value="The vaccine code - a type of vaccine, typically identified by the diseas(s) it covers. For example MMR, HPV, Tetanus, DTPa"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.patient">
-      <path value="Immunization.patient" />
-      <short value="The patient that this received vaccination entry refers to" />
+      <path value="Immunization.patient"/>
+      <short value="The patient that this received vaccination entry refers to"/>
       <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient" />
+        <code value="Reference"/>
+        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
       </type>
-      <mustSupport value="true" />
+      <mustSupport value="true"/>
     </element>
-    <element id="Immunization.occurrence[x]">
-      <path value="Immunization.occurrence[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-      </slicing>
-    </element>
-    <element id="Immunization.occurrence[x]:occurrenceDateTime">
-      <path value="Immunization.occurrence[x]" />
-      <sliceName value="occurrenceDateTime" />
+    <element id="Immunization.occurrenceDateTime">
+      <path value="Immunization.occurrenceDateTime"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="dateTime" />
+        <code value="dateTime"/>
       </type>
-      <mustSupport value="true" />
+      <mustSupport value="true"/>
     </element>
-    <element id="Immunization.occurrence[x]:occurrenceString">
-      <path value="Immunization.occurrence[x]" />
-      <sliceName value="occurrenceString" />
+    <element id="Immunization.occurrenceString">
+      <path value="Immunization.occurrenceString"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="string" />
+        <code value="string"/>
       </type>
-      <mustSupport value="true" />
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.recorded">
-      <path value="Immunization.recorded" />
-      <short value="The date/time when the vaccination event has been recorded" />
-      <min value="1" />
-      <mustSupport value="true" />
+      <path value="Immunization.recorded"/>
+      <short value="The date/time when the vaccination event has been recorded"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.location">
-      <path value="Immunization.location" />
-      <max value="0" />
-      <mustSupport value="true" />
+      <path value="Immunization.location"/>
+      <max value="0"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.lotNumber">
-      <path value="Immunization.lotNumber" />
-      <mustSupport value="true" />
+      <path value="Immunization.lotNumber"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.expirationDate">
-      <path value="Immunization.expirationDate" />
-      <mustSupport value="true" />
+      <path value="Immunization.expirationDate"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.site">
-      <path value="Immunization.site" />
-      <mustSupport value="true" />
+      <path value="Immunization.site"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.route">
-      <path value="Immunization.route" />
-      <mustSupport value="true" />
+      <path value="Immunization.route"/>
+      <mustSupport value="true"/>
       <binding>
-        <strength value="required" />
-        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-vs-vaccination-administration-route" />
+        <strength value="required"/>
+        <valueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-vs-vaccination-administration-route"/>
       </binding>
     </element>
     <element id="Immunization.performer">
-      <path value="Immunization.performer" />
-      <mustSupport value="true" />
+      <path value="Immunization.performer"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.performer.actor">
-      <path value="Immunization.performer.actor" />
+      <path value="Immunization.performer.actor"/>
       <type>
-        <code value="Reference" />
-        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner" />
-        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization" />
-        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole" />
+        <code value="Reference"/>
+        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner"/>
+        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization"/>
+        <targetProfile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole"/>
       </type>
     </element>
     <element id="Immunization.reasonCode">
-      <path value="Immunization.reasonCode" />
-      <short value="Why vaccination has occurred or not (code or text)" />
-      <mustSupport value="true" />
+      <path value="Immunization.reasonCode"/>
+      <short value="Why vaccination has occurred or not (code or text)"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.reasonReference">
-      <path value="Immunization.reasonReference" />
-      <short value="Why vaccination has occurred or not (reference to a finding)" />
-      <mustSupport value="true" />
+      <path value="Immunization.reasonReference"/>
+      <short value="Why vaccination has occurred or not (reference to a finding)"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.reaction">
-      <path value="Immunization.reaction" />
-      <mustSupport value="true" />
+      <path value="Immunization.reaction"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.protocolApplied">
-      <path value="Immunization.protocolApplied" />
-      <mustSupport value="true" />
+      <path value="Immunization.protocolApplied"/>
+      <mustSupport value="true"/>
     </element>
-    <element id="Immunization.protocolApplied.doseNumber[x]">
-      <path value="Immunization.protocolApplied.doseNumber[x]" />
-      <slicing>
-        <discriminator>
-          <type value="type" />
-          <path value="$this" />
-        </discriminator>
-      </slicing>
-      <definition value="Nominal position in a series.&#xD;&#xA;When for example needed to explain this is a first immunization or a reinforcement – this is used" />
-    </element>
-    <element id="Immunization.protocolApplied.doseNumber[x]:doseNumberString">
-      <path value="Immunization.protocolApplied.doseNumber[x]" />
-      <sliceName value="doseNumberString" />
-      <short value="Whether this is a first vaccination or a reinforcement" />
+    <element id="Immunization.protocolApplied.doseNumberString">
+      <path value="Immunization.protocolApplied.doseNumberString"/>
+      <short value="Whether this is a first vaccination or a reinforcement"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="string" />
+        <code value="string"/>
       </type>
-      <mustSupport value="true" />
+      <mustSupport value="true"/>
     </element>
-    <element id="Immunization.protocolApplied.doseNumber[x]:doseNumberPositiveInt">
-      <path value="Immunization.protocolApplied.doseNumber[x]" />
-      <sliceName value="doseNumberPositiveInt" />
-      <short value="The numeric/sequential number of the dose, when adequate" />
+    <element id="Immunization.protocolApplied.doseNumberPositiveInt">
+      <path value="Immunization.protocolApplied.doseNumberPositiveInt"/>
+      <short value="The numeric/sequential number of the dose, when adequate"/>
+      <min value="0"/>
+      <max value="1"/>
       <type>
-        <code value="positiveInt" />
+        <code value="positiveInt"/>
       </type>
-      <mustSupport value="true" />
+      <mustSupport value="true"/>
     </element>
   </differential>
 </StructureDefinition>
