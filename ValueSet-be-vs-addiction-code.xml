@@ -26,7 +26,8 @@
       <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
   </contact>
-  <description value="Addiction code"/>
+  <description value="Addiction code. Note at the time of proposing this profile as a federal standard, the valueset to use here does not have any content yet. 
+  It is expected the business drivers behind this profile (NIHDI) will deliver values for a future iteration."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
