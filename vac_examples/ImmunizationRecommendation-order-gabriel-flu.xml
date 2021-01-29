@@ -3,7 +3,7 @@
 <ImmunizationRecommendation xmlns="http://hl7.org/fhir">
   <id value="order-gabriel-flu"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>patient</b>: <span></span></p><p><b>date</b>: 2019-09-02</p><h3>Recommendations</h3><table class="grid"><tr><td>-</td><td><b>VaccineCode</b></td><td><b>ForecastStatus</b></td></tr><tr><td>*</td><td><span title="Codes: {http://hl7.org/fhir/sid/cvx 141}">141</span></td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/vaccination-recommendation-status due}">due</span></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>patient</b>: <span></span></p><p><b>date</b>: 2019-09-02</p><h3>Recommendations</h3><table class="grid"><tr><td>-</td><td><b>VaccineCode</b></td><td><b>ForecastStatus</b></td></tr><tr><td>*</td><td><span title="Codes: {http://hl7.org/fhir/sid/cvx 141}">141</span></td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/immunization-recommendation-status due}">due</span></td></tr></table></div>
   </text>
   <patient>
     <identifier>
@@ -21,7 +21,7 @@
     </vaccineCode>
     <forecastStatus>
       <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/vaccination-recommendation-status"/>
+        <system value="http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"/>
         <code value="due"/>
       </coding>
     </forecastStatus>
