@@ -26,13 +26,7 @@
   </patient>
   <occurrenceDateTime value="2019-09-05"/>
   <recorded value="2019-09-05"/>
-  <performer>
-    <actor>
-      <identifier>
-        <value value="Reference(School2)"/>
-      </identifier>
-    </actor>
-  </performer>
+
   <protocolApplied>
     <doseNumberPositiveInt value="1"/>
     <seriesDosesPositiveInt value="2"/>

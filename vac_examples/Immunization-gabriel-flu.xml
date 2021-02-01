@@ -34,14 +34,7 @@
   <doseQuantity>
     <value value="1"/>
   </doseQuantity>
-  <performer>
-    <actor>
-      <identifier>
-        <system value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization"/>
-        <value value="NIHDI_GP2"/>
-      </identifier>
-    </actor>
-  </performer>
+
   <protocolApplied>
     <doseNumberString value="2020"/>
     <seriesDosesString value="Yearly"/>

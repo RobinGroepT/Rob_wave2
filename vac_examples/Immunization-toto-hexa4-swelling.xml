@@ -67,14 +67,7 @@
     <actor>
       <identifier>
         <system value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization"/>
-        <value value="NIHDI_ONE"/>
-      </identifier>
-    </actor>
-  </performer>
-  <performer>
-    <actor>
-      <identifier>
-        <value value="ONE Nurse  1"/>
+        <value value="87654321"/>
       </identifier>
     </actor>
   </performer>

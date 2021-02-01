@@ -45,13 +45,7 @@
   <doseQuantity>
     <value value="1"/>
   </doseQuantity>
-  <performer>
-    <actor>
-      <identifier>
-        <value value="Reference(School2)"/>
-      </identifier>
-    </actor>
-  </performer>
+
   <protocolApplied>
     <doseNumberPositiveInt value="2"/>
     <seriesDosesPositiveInt value="2"/>

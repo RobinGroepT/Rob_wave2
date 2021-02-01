@@ -57,17 +57,11 @@
     <actor>
       <identifier>
         <system value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization"/>
-        <value value="NIHDI_ONE"/>
+        <value value="87654321"/>
       </identifier>
     </actor>
   </performer>
-  <performer>
-    <actor>
-      <identifier>
-        <value value="Hospital Midwife 1"/>
-      </identifier>
-    </actor>
-  </performer>
+
   <protocolApplied>
     <doseNumberPositiveInt value="1"/>
     <seriesDosesPositiveInt value="4"/>
