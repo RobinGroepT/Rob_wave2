@@ -1,0 +1,86 @@
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="problem1" />
+  <meta>
+    <versionId value="1" />
+    <lastUpdated value="2021-01-27T14:00:00.000+00:00" />
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-problem" />
+  </meta>
+  <text>
+    <status value="extensions" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>
+        <b>Generated Narrative</b>
+      </p>
+    </div>
+  </text>
+  <extension url="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-problem-origin-type">
+    <valueCode value="counsel" />
+  </extension>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
+      <code value="active" />
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status" />
+      <code value="confirmed" />
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-problem-category" />
+      <code value="diagnosis" />
+      <display value="Diagnosis" />
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="439401001" />
+      <display value="Diagnosis" />
+    </coding>
+  </category>
+  <severity>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="24484000" />
+      <display value="Severe" />
+    </coding>
+  </severity>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="128139000" />
+      <display value="Inflammatory disorder" />
+    </coding>
+    <text value="Inflammatory disorder" />
+  </code>
+  <bodySite>
+    <extension url="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-ext-laterality">
+      <valueCoding>
+        <system value="http://snomed.info/sct" />
+        <code value="261183002" />
+        <display value="Upper" />
+      </valueCoding>
+    </extension>
+    <coding>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-bodysite" />
+      <code value="IM" />
+      <display value="Intramuscular" />
+    </coding>
+    <text value="Intramuscular" />
+  </bodySite>
+  <subject>
+    <reference value="Patient/example" />
+  </subject>
+  <encounter>
+    <reference value="Encounter/example" />
+  </encounter>
+  <recordedDate value="2021-01-26T14:00:00.000+00:00" />
+  <recorder>
+    <reference value="Practitioner/example" />
+  </recorder>
+  <note>
+    <text>Additional notes</text>
+  </note>
+</Condition>
