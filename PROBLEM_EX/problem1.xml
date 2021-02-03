@@ -34,11 +34,6 @@
       <code value="diagnosis" />
       <display value="Diagnosis" />
     </coding>
-    <coding>
-      <system value="http://snomed.info/sct" />
-      <code value="439401001" />
-      <display value="Diagnosis" />
-    </coding>
   </category>
   <severity>
     <coding>
