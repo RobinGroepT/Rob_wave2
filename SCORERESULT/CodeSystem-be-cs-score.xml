@@ -24,7 +24,7 @@
       <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
   </contact>
-  <description value="Codes as defined by the NIHDI. Dutch translations were not yet received but are planned
+  <description value="Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned
 	 for a next release." />
  
   <jurisdiction>

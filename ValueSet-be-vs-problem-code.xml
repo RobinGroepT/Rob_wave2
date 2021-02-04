@@ -26,8 +26,8 @@
       <value value="message-structure@ehealth.fgov.be"/>
     </telecom>
   </contact>
-  <description value="Problem Code. No values were delivered for this valueset by the business drivers (NIHDI) It
-  is expected SNOMED-CT values will be delivered for a future iteration."/>
+  <description value="Problem Code. No Belgian standardized valueset is yet defined, this is expected
+  for a future iteration. Implementers are encouraged to use a codification system of their choosing."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
