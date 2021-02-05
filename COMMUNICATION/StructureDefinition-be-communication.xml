@@ -339,7 +339,7 @@
       <value value="message-structure@ehealth.fgov.be" />
     </telecom>
   </contact>
-  <description value="This is the technical specification for the Communication resource, as it is used in Belgium.&#xA;This technical specification corresponds to the FHIR implementation of the Communication section of the Logical Data Model.&#xA;This specification is compatible with the current version of KMEHR Diary Note, namely the selection of attributes that are supported, and the maximum length of the payload (320 characters).&#xA;It also relies on the foundation Belgium resources, for example the Belgian Patient, Practitioner and other resources." />
+  <description value="This is the technical specification for the Communication resource, as it is used in Belgium.&#xA;This specification is compatible with the current version of KMEHR Diary Note, namely the selection of attributes that are supported, and the maximum length of the payload (320 characters).&#xA;It also relies on the foundation Belgium resources, for example the Belgian Patient, Practitioner and other resources." />
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
