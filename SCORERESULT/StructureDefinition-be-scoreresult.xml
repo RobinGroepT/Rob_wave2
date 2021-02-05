@@ -389,7 +389,7 @@
       <value value="message-structure@ehealth.fgov.be" />
     </telecom>
   </contact>
-  <description value="Defines a patient's known problem, a diagnostic or antecedent that deserves attention." />
+  <description value="To support the standard exchange of scores such as pain assessment scores, or risk score, etc" />
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
